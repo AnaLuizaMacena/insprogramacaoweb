@@ -1,0 +1,15 @@
+#menu{
+    background-color:aqua;
+}
+
+#conteudo{
+    background-color: aquamarine;
+}
+
+#rodape{
+    background-color: rgb(000, 000, 255);
+    color:antiquewhite;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
