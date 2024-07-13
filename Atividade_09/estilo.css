@@ -1,68 +1,27 @@
-
-#footer{
-    position: absolute;
-    background: rgb(187, 109, 240);
-    width: 100%;
-    height: 10%;
-    left: 0%;
-    right: 0%;
-    top: 125%;
-    text-align: center;
+body{
+    background: #d6d6d6;
 }
-#menu{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    background: lightcoral;
-    top: 15%;
-    left: 0px;
-    right: 0px;
-    text-align: center;
+
+.container p{
+    clear: both;
+    padding: 10px;
     align-content: center;
 
 }
-#right{
-    position: absolute;
-    width: 25%;
-    height: 100%;
-    left: 75%;
-    right: 0%;
-    top: 25%;
-    text-align: center;
-    align-content: center;
-    background: rgb(236, 171, 72);
+
+.imagem {
+    width: 750px;
 }
-#left{
-    position: absolute;
-    width: 25%;
-    height: 100%;
-    left: 0%;
-    right: 75%;
-    top: 25%;
+.card{
+    font-family: 'opensans-regular', Arial, sans-serif;
+    background-color: #F5F5DC;
+    border: 1px solid rgb(25, 0, 83);
+    color: #333;
     text-align: center;
-    align-content: center;
-    background: rgb(233, 194, 66);
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px;
 }
-#center{
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 100%;
-    top:25%;
-    right: 25%;
-    text-align: center;
-    align-content: center;
-    background: rgb(109, 211, 78);
-}
-#header{
-    position: fixed;
-    background:lightskyblue;
-    width: 100%;
-    height: 15%;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    text-align: center;
-    align-content: center;
-    z-index: 1000;
+.paragrafo{
+    text-align: justify;
 }
