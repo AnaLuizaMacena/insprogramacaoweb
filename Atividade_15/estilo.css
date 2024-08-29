@@ -6,8 +6,7 @@
     height: 50px;
     background: red;
     animation-name: minhaAnimacao;
-    animation-duration: 5s;
-    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 4;
     animation-direction: alternate;
     animation-fill-mode: forwards;
@@ -19,7 +18,7 @@
     }
     to{ 
         left: 50px;
+        transform: rotate(90deg);
         background: blue;
-        border-radius: 100px;
     }
 }

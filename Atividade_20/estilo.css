@@ -1,0 +1,18 @@
+.bg-red-white-text {
+    background-color: red;
+    color:white;
+}
+.bg-red-white-text .navbar-brand,
+    .bg-red-white-text .nav-link {
+        color: white;
+    }
+
+    .bg-red-white-text .nav-link:hover {
+        color: white;
+        
+    }
+
+    .navbar-nav .nav-link:hover {
+        background-color: #000000; 
+        color: #ffffff;
+    }
