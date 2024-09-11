@@ -1,68 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    background-color: #cfcec4c2;
+    color: #000000;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
 }
-
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+h1{
+    padding-top: 20px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+p {
+    text-align: justify;
 }
 
-nav ul li {
-    margin: 0 20px;
+.header-section, .projects-section, .contact-section {
+    padding: 60px 0;
 }
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
     font-weight: bold;
 }
-
-nav ul li a:hover {
-    text-decoration: underline;
+h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f0e68c;
+    margin: 10px auto;
 }
-
-main {
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
+.profile-pic {
+    max-width: 300px;
+    border-radius: 15%;
     margin-bottom: 20px;
 }
-
-.button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+.card {
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    
 }
-
-.btn {
-    display: block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
+.card-text{
+    color: white;
+}
+.card-title {
+    color: #f0e68c;
+}
+.btn-custom {
+    background-color: #f0e68c;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
-
-.btn:hover {
-    background-color: #0056b3;
+.btn-custom:hover {
+    background-color: #d4b54c;
+}
+.contact-info i {
+    margin-right: 10px;
+    color: #f0e68c;
+}
+.btn{
+    color: #f7efa8;
+}
+.lista{
+    text-align: justify;
 }
